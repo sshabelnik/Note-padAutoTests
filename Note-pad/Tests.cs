@@ -16,47 +16,70 @@ using NUnit.Framework.Internal.Execution;
 namespace Note_pad
 {
     [TestFixture]
-    public class AuthCreateEditDeleteLogoutTest {
-        private IWebDriver driver;
-        public IDictionary<string, object> vars {get; private set;}
-        private IJavaScriptExecutor js;
-        [SetUp]
-        public void SetUp() {
-            driver = new FirefoxDriver("/Users/honning69/Downloads");
-            driver.Manage().Window.Maximize();
-            js = (IJavaScriptExecutor)driver;
-            vars = new Dictionary<string, object>();
-        }
-        [TearDown]
-        protected void TearDown() {
-            driver.Quit();
+    public class AuthCreateEditDeleteLogoutTest: TestBase {
+        [Test]
+        public void Auth() {
+            OpenHomePage();
+            AccountData user = new AccountData("Boooo211@yandex.ru", "12345678");
+            Authorization(user);
+            
+            // Thread.Sleep(3000);
+            // NoteData note = new NoteData("New note created");
+            // RenameNote(note);
+            // Thread.Sleep(3000);
+            // DeleteNote();
+            // Thread.Sleep(2000);
+            // Logout();
         }
         [Test]
-        public void authCreateEditDeleteLogout() {
-            driver.Navigate().GoToUrl("https://note-pad.net/");
-            driver.Manage().Window.Size = new System.Drawing.Size(1440, 900);
-            driver.FindElement(By.Id("email")).Click();
-            driver.FindElement(By.Id("email")).SendKeys("s.shabelnik01@gmail.com");
-            driver.FindElement(By.Id("password")).Click();
-            driver.FindElement(By.Id("password")).SendKeys("SeReGa24042001");
-            driver.FindElement(By.CssSelector("tr:nth-child(3) input")).Click();
+        public void AuthAndCreate()
+        {
             Thread.Sleep(3000);
-            driver.FindElement(By.LinkText("+")).Click();
-            Thread.Sleep(3000);
-            driver.FindElement(By.CssSelector(".icon_menu")).Click();
-            driver.FindElement(By.LinkText("Параметры")).Click();
-            Thread.Sleep(3000);
-            driver.FindElement(By.Id("title")).Click();
-            driver.FindElement(By.Id("title")).SendKeys("Name edited");
-            driver.FindElement(By.CssSelector("input:nth-child(18)")).Click();
-            Thread.Sleep(3000);
+            CreateNewNote();
+        }
+
+        private void Logout()
+        {
+            driver.FindElement(By.LinkText("Выйти")).Click();
+        }
+
+        private void DeleteNote()
+        {
             driver.FindElement(By.CssSelector(".icon_menu")).Click();
             Thread.Sleep(2000);
             driver.FindElement(By.CssSelector(".icon_delete")).Click();
             Thread.Sleep(1000);
             driver.FindElement(By.CssSelector("button.ui-button:nth-child(1) > span:nth-child(1)")).Click();
-            Thread.Sleep(2000);
-            driver.FindElement(By.LinkText("Выйти")).Click();
+        }
+
+        private void RenameNote(NoteData note)
+        {
+            driver.FindElement(By.CssSelector(".icon_menu")).Click();
+            driver.FindElement(By.LinkText("Параметры")).Click();
+            Thread.Sleep(3000);
+            driver.FindElement(By.Id("title")).Click();
+            driver.FindElement(By.Id("title")).SendKeys(note.Name);
+            driver.FindElement(By.CssSelector("input:nth-child(18)")).Click();
+        }
+
+        private void CreateNewNote()
+        {
+            driver.FindElement(By.LinkText("+")).Click();
+        }
+
+        private void Authorization(AccountData user)
+        {
+            driver.FindElement(By.Id("email")).Click();
+            driver.FindElement(By.Id("email")).SendKeys(user.Username);
+            driver.FindElement(By.Id("password")).Click();
+            driver.FindElement(By.Id("password")).SendKeys(user.Password);
+            driver.FindElement(By.CssSelector("tr:nth-child(3) input")).Click();
+        }
+
+        private void OpenHomePage()
+        {
+            driver.Navigate().GoToUrl("https://note-pad.net/");
+            driver.Manage().Window.Size = new System.Drawing.Size(1440, 900);
         }
     }    
 }

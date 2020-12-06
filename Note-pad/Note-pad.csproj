@@ -54,6 +54,9 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="AccountData.cs" />
+        <Compile Include="NoteData.cs" />
+        <Compile Include="TestBase.cs" />
         <Compile Include="Tests.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>

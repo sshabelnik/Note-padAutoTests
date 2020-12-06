@@ -1,20 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="798f31d8-94c5-4974-85e0-6b3dbd4f7be0" name="Default Changelist" comment="" />
+    <list default="true" id="798f31d8-94c5-4974-85e0-6b3dbd4f7be0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Note-pad/AccountData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Note-pad/NoteData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Note-pad/TestBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Note-pad/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Note-pad/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Note-pad/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Note-pad/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note-pad/Note-pad.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad/Note-pad.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note-pad/Tests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad/Tests.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Note-pad/TestBase.cs" />
+        <option value="$PROJECT_DIR$/Note-pad/AccountData.cs" />
+        <option value="$PROJECT_DIR$/Note-pad/NoteData.cs" />
         <option value="$PROJECT_DIR$/Note-pad/Tests.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1lHoYdrgCByJZpK46WJL0x6j7mw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,15 +74,34 @@
       <option name="presentableId" value="Default" />
       <updated>1607263428584</updated>
       <workItem from="1607263435143" duration="2771000" />
+      <workItem from="1607268285506" duration="78000" />
+      <workItem from="1607268951334" duration="930000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="383" y="148" width="672" height="678" key="search.everywhere.popup" timestamp="1607269646331">
+      <screen x="0" y="0" width="1440" height="827" />
+    </state>
+    <state x="383" y="148" width="672" height="678" key="search.everywhere.popup/0.0.1440.827@0.0.1440.827" timestamp="1607269646331" />
   </component>
 </project>

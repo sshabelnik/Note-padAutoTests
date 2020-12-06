@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_Note-pad.-1792172985.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="Note-pad" t="IncludeRecursive">
+        <e p="AccountData.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Note-pad.csproj" t="IncludeRecursive" />
+        <e p="NoteData.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="packages.config" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
+        <e p="TestBase.cs" t="Include" />
         <e p="Tests.cs" t="Include" />
       </e>
       <e p="Note-pad.sln" t="IncludeFlat" />
@@ -24,5 +24,8 @@
         <e p="NUnit3TestAdapter.3.17.0/build/net35/NUnit3.TestAdapter.pdb" t="Include" />
       </e>
     </e>
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_Note-pad.-1745827435.00" t="ExcludeRecursive" />
   </component>
 </project>
