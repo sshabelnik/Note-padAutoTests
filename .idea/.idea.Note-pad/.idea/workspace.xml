@@ -20,12 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="798f31d8-94c5-4974-85e0-6b3dbd4f7be0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Note-pad/AccountData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Note-pad/NoteData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Note-pad/TestBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Note-pad/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Note-pad/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Note-pad/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Note-pad/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Note-pad/Note-pad.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad/Note-pad.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Note-pad/Tests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad/Tests.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +69,7 @@
       <updated>1607263428584</updated>
       <workItem from="1607263435143" duration="2771000" />
       <workItem from="1607268285506" duration="78000" />
-      <workItem from="1607268951334" duration="930000" />
+      <workItem from="1607268951334" duration="1444000" />
     </task>
     <servers />
   </component>

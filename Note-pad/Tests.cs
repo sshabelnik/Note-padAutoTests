@@ -22,20 +22,32 @@ namespace Note_pad
             OpenHomePage();
             AccountData user = new AccountData("Boooo211@yandex.ru", "12345678");
             Authorization(user);
-            
-            // Thread.Sleep(3000);
-            // NoteData note = new NoteData("New note created");
-            // RenameNote(note);
-            // Thread.Sleep(3000);
-            // DeleteNote();
-            // Thread.Sleep(2000);
-            // Logout();
         }
         [Test]
         public void AuthAndCreate()
         {
+            OpenHomePage();
+            AccountData user = new AccountData("Boooo211@yandex.ru", "12345678");
+            Authorization(user);
             Thread.Sleep(3000);
             CreateNewNote();
+        }
+
+        [Test]
+        public void AuthCreateEditRemoveLogout()
+        {
+            OpenHomePage();
+            AccountData user = new AccountData("Boooo211@yandex.ru", "12345678");
+            Authorization(user);
+            Thread.Sleep(3000);
+            CreateNewNote();
+            Thread.Sleep(3000);
+            NoteData note = new NoteData("New note created");
+            RenameNote(note);
+            Thread.Sleep(3000);
+            DeleteNote();
+            Thread.Sleep(2000);
+            Logout();
         }
 
         private void Logout()
