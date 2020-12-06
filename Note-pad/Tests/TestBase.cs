@@ -16,19 +16,16 @@ namespace Note_pad
 {
     public class TestBase
     {
-        public IWebDriver driver;
-        public IDictionary<string, object> vars {get; private set;}
-        private IJavaScriptExecutor js;
+        protected ApplicationManager manager;
         [SetUp]
         public void SetUp() {
-            driver = new FirefoxDriver("/Users/honning69/Downloads");
-            driver.Manage().Window.Maximize();
-            js = (IJavaScriptExecutor)driver;
-            vars = new Dictionary<string, object>();
+            manager = new ApplicationManager();
         }
+        
         [TearDown]
-        protected void TearDown() {
-            driver.Quit();
+        protected void TearDown()
+        {
+            manager.Stop();
         }   
     }
 }

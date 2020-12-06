@@ -54,11 +54,16 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="AccountData.cs" />
-        <Compile Include="NoteData.cs" />
-        <Compile Include="TestBase.cs" />
-        <Compile Include="Tests.cs" />
+        <Compile Include="ApplicationManager.cs" />
+        <Compile Include="Helpers\AuthorizationHelper.cs" />
+        <Compile Include="Helpers\HelperBase.cs" />
+        <Compile Include="Helpers\NavigationHelper.cs" />
+        <Compile Include="Helpers\NoteHelper.cs" />
+        <Compile Include="Models\AccountData.cs" />
+        <Compile Include="Models\NoteData.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="Tests\TestBase.cs" />
+        <Compile Include="Tests\Tests.cs" />
     </ItemGroup>
     <ItemGroup>
       <None Include="packages.config" />
