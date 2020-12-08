@@ -15,12 +15,13 @@ using NUnit.Framework.Internal.Execution;
 
 namespace Note_pad
 {
-    [TestFixture]
     public class AuthCreateEditDeleteLogoutTest: AuthBase {
+
         [Test]
         public void Auth() {
             manager.Auth.Logout();
         }
+
         [Test]
         public void AuthAndCreate()
         {

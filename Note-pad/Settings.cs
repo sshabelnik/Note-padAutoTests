@@ -5,7 +5,7 @@ namespace Note_pad
 {
     public static class Settings
     {
-        public static string file = "/Users/honning69/Documents/GitHub/Note-pad/Settings.xml";
+        public static string file = "/Users/honning69/Documents/GitHub/Note-padAutoTests/Note-pad/Settings.xml";
 
         private static string baseURL;
 

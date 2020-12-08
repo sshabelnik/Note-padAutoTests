@@ -79,17 +79,10 @@ namespace Note_pad
             }
             return app.Value;
         }
-        
+        [TearDown]
         ~ApplicationManager()
         {
-            try
-            {
-                driver.Quit();
-            }
-            catch (Exception)
-            { 
-                //ignore
-            }
+            driver.Quit();
         }
     }
 }

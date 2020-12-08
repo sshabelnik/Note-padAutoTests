@@ -16,7 +16,6 @@ using NUnit.Framework.Internal.Execution;
 
 namespace Note_pad
 {
-    [TestFixture]
     public class NotesCreationTest: AuthBase
     {
         public static IEnumerable<NoteData> GroupDataFromXmlFile()

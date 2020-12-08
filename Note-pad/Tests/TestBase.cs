@@ -14,6 +14,7 @@ using NUnit.Framework.Internal.Execution;
 
 namespace Note_pad
 {
+    [TestFixture]
     public class TestBase
     {
         protected ApplicationManager manager;

@@ -1,7 +1,22 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{BB3CB8F0-178B-4A3C-A318-6957878B6957}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Note-pad/ApplicationManager.cs">
+    <Files>
+      <File FileName="Note-pad/Tests/TestBase.cs" Line="1" Column="1" />
+      <File FileName="Note-pad/Tests/AuthBase.cs" Line="1" Column="1" />
+      <File FileName="Note-pad/ApplicationManager.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Note-pad" expanded="True">
+            <Node name="Note-pad" expanded="True">
+              <Node name="Tests" expanded="True" />
+              <Node name="ApplicationManager.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
           <Node name="Note-pad" expanded="True" selected="True" />
         </State>
@@ -10,6 +25,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.DataGenerator PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
