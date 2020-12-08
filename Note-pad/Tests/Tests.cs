@@ -22,6 +22,9 @@ namespace Note_pad
             manager.Navigation.OpenHomePage();
             AccountData user = new AccountData("Boooo211@yandex.ru", "12345678");
             manager.Auth.Authorization(user);
+            var authorizedLogin = manager.Auth.GetAuthorizedLogin();
+            Assert.AreEqual(user.Username, authorizedLogin);
+            manager.Auth.Logout();
         }
         [Test]
         public void AuthAndCreate()
@@ -29,7 +32,11 @@ namespace Note_pad
             manager.Navigation.OpenHomePage();
             AccountData user = new AccountData("Boooo211@yandex.ru", "12345678");
             manager.Auth.Authorization(user);
+            var authorizedLogin = manager.Auth.GetAuthorizedLogin();
+            Assert.AreEqual(user.Username, authorizedLogin);
             manager.Notes.CreateNewNote();
+            manager.Navigation.OpenHomePage();
+            manager.Auth.Logout();
         }
 
         [Test]
@@ -38,9 +45,13 @@ namespace Note_pad
             manager.Navigation.OpenHomePage();
             AccountData user = new AccountData("Boooo211@yandex.ru", "12345678");
             manager.Auth.Authorization(user);
+            var authorizedLogin = manager.Auth.GetAuthorizedLogin();
+            Assert.AreEqual(user.Username, authorizedLogin);
             manager.Notes.CreateNewNote();
             NoteData note = new NoteData("New note created");
             manager.Notes.RenameNote(note);
+            var assertNote = manager.Notes.GetRenamedNoteData();
+            Assert.AreEqual(note.Name, assertNote.Name);
             manager.Notes.DeleteNote();
             manager.Auth.Logout();
         }

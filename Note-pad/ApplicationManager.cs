@@ -20,6 +20,8 @@ namespace Note_pad
         public IDictionary<string, object> vars {get; private set;}
         private IJavaScriptExecutor js;
         
+        private static ThreadLocal<ApplicationManager> app = new ThreadLocal<ApplicationManager>();
+        
         private NavigationHelper navigation;
         private NoteHelper notes;
         private AuthorizationHelper auth;
@@ -55,7 +57,7 @@ namespace Note_pad
             }
         }
 
-        public ApplicationManager()
+        private ApplicationManager()
         {
             driver = new FirefoxDriver("/Users/honning69/Downloads");
             driver.Manage().Window.Maximize();
@@ -65,12 +67,29 @@ namespace Note_pad
             navigation = new NavigationHelper(this);
             notes = new NoteHelper(this);
             auth = new AuthorizationHelper(this);
-
         }
-
-        public void Stop()
+        
+        public static ApplicationManager GetInstance()
         {
-            driver.Quit();
+            if (!app.IsValueCreated)
+            {
+                ApplicationManager newInstance = new ApplicationManager();
+                newInstance.Navigation.OpenHomePage();
+                app.Value = newInstance;
+            }
+            return app.Value;
+        }
+        
+        ~ApplicationManager()
+        {
+            try
+            {
+                driver.Quit();
+            }
+            catch (Exception)
+            { 
+                //ignore
+            }
         }
     }
 }

@@ -20,22 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="798f31d8-94c5-4974-85e0-6b3dbd4f7be0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Note-pad/ApplicationManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Note-pad/Helpers/AuthorizationHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Note-pad/Helpers/HelperBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Note-pad/Helpers/NavigationHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Note-pad/Helpers/NoteHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Note-pad/Tests/Tests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Note-pad/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Note-pad/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Note-pad/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Note-pad/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Note-pad/AccountData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad/Models/AccountData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Note-pad/Note-pad.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad/Note-pad.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Note-pad/NoteData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad/Models/NoteData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Note-pad/TestBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad/Tests/TestBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Note-pad/Tests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note-pad.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note-pad/ApplicationManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad/ApplicationManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note-pad/Helpers/AuthorizationHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad/Helpers/AuthorizationHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note-pad/Helpers/NoteHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad/Helpers/NoteHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note-pad/Tests/TestBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad/Tests/TestBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note-pad/Tests/Tests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad/Tests/Tests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Note-pad/bin/Debug/Note_pad.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad/bin/Debug/Note_pad.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Note-pad/bin/Debug/Note_pad.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad/bin/Debug/Note_pad.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Note-pad/obj/Debug/Note-pad.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad/obj/Debug/Note-pad.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Note-pad/obj/Debug/Note_pad.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad/obj/Debug/Note_pad.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Note-pad/obj/Debug/Note_pad.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad/obj/Debug/Note_pad.pdb" afterDir="false" />
     </list>
@@ -56,12 +49,13 @@
         <option value="$PROJECT_DIR$/Note-pad/TestBase.cs" />
         <option value="$PROJECT_DIR$/Note-pad/NavigationHelper.cs" />
         <option value="$PROJECT_DIR$/Note-pad/AuthorizationHelper.cs" />
-        <option value="$PROJECT_DIR$/Note-pad/ApplicationManager.cs" />
         <option value="$PROJECT_DIR$/Note-pad/NoteHelper.cs" />
         <option value="$PROJECT_DIR$/Note-pad/Tests.cs" />
+        <option value="$PROJECT_DIR$/Note-pad/Tests/TestBase.cs" />
+        <option value="$PROJECT_DIR$/Note-pad/ApplicationManager.cs" />
         <option value="$PROJECT_DIR$/Note-pad/Helpers/NoteHelper.cs" />
-        <option value="$PROJECT_DIR$/Note-pad/Tests/Tests.cs" />
         <option value="$PROJECT_DIR$/Note-pad/Helpers/AuthorizationHelper.cs" />
+        <option value="$PROJECT_DIR$/Note-pad/Tests/Tests.cs" />
       </list>
     </option>
   </component>
@@ -86,6 +80,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager" selected="e3fa8168-54a2-4040-bc3d-44a18bc797a6" />
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -96,7 +91,9 @@
       <updated>1607263428584</updated>
       <workItem from="1607263435143" duration="2771000" />
       <workItem from="1607268285506" duration="78000" />
-      <workItem from="1607268951334" duration="3592000" />
+      <workItem from="1607268951334" duration="3783000" />
+      <workItem from="1607419608947" duration="1200000" />
+      <workItem from="1607421211723" duration="1838000" />
     </task>
     <servers />
   </component>
@@ -115,6 +112,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

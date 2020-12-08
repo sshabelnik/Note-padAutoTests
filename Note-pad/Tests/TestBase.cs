@@ -18,14 +18,9 @@ namespace Note_pad
     {
         protected ApplicationManager manager;
         [SetUp]
-        public void SetUp() {
-            manager = new ApplicationManager();
-        }
-        
-        [TearDown]
-        protected void TearDown()
+        public void SetUp()
         {
-            manager.Stop();
-        }   
+            manager = ApplicationManager.GetInstance();
+        }
     }
 }

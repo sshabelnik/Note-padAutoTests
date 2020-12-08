@@ -47,5 +47,17 @@ namespace Note_pad
             Thread.Sleep(3000);
             driver.FindElement(By.LinkText("+")).Click();
         }
+
+        public NoteData GetRenamedNoteData()
+        {
+            Thread.Sleep(3000);
+            driver.FindElement(By.CssSelector(".icon_menu")).Click();
+            driver.FindElement(By.LinkText("Параметры")).Click();
+            Thread.Sleep(3000);
+            NoteData note = new NoteData(driver.FindElement(By.Id("title")).GetAttribute("value"));
+            Console.WriteLine(note.Name);
+            driver.FindElement(By.CssSelector("input:nth-child(18)")).Click();
+            return note;
+        }
     }
 }
