@@ -8,6 +8,7 @@
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::4A578804-F0CE-4F24-B58C-4033D57A04B0::.NETFramework,Version=v4.7.1::Note_pad.NotesCreationTest.TestMethod&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::4A578804-F0CE-4F24-B58C-4033D57A04B0::.NETFramework,Version=v4.7.1::Note_pad.AuthCreateEditDeleteLogoutTest.Auth&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::4A578804-F0CE-4F24-B58C-4033D57A04B0::.NETFramework,Version=v4.7.1::Note_pad.LoginTests.LoginWithInvalidData&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e3fa8168_002D54a2_002D4040_002Dbc3d_002D44a18bc797a6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AuthCreateEditDeleteLogoutTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;

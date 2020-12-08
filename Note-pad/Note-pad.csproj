@@ -62,12 +62,18 @@
         <Compile Include="Models\AccountData.cs" />
         <Compile Include="Models\NoteData.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="Settings.cs" />
+        <Compile Include="Tests\AuthBase.cs" />
+        <Compile Include="Tests\LoginTests.cs" />
         <Compile Include="Tests\NotesCreationTest.cs" />
         <Compile Include="Tests\TestBase.cs" />
         <Compile Include="Tests\Tests.cs" />
     </ItemGroup>
     <ItemGroup>
       <None Include="packages.config" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include="Settings.xml" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -16,24 +16,14 @@ using NUnit.Framework.Internal.Execution;
 namespace Note_pad
 {
     [TestFixture]
-    public class AuthCreateEditDeleteLogoutTest: TestBase {
+    public class AuthCreateEditDeleteLogoutTest: AuthBase {
         [Test]
         public void Auth() {
-            manager.Navigation.OpenHomePage();
-            AccountData user = new AccountData("Boooo211@yandex.ru", "12345678");
-            manager.Auth.Authorization(user);
-            var authorizedLogin = manager.Auth.GetAuthorizedLogin();
-            Assert.AreEqual(user.Username, authorizedLogin);
             manager.Auth.Logout();
         }
         [Test]
         public void AuthAndCreate()
         {
-            manager.Navigation.OpenHomePage();
-            AccountData user = new AccountData("Boooo211@yandex.ru", "12345678");
-            manager.Auth.Authorization(user);
-            var authorizedLogin = manager.Auth.GetAuthorizedLogin();
-            Assert.AreEqual(user.Username, authorizedLogin);
             manager.Notes.CreateNewNote();
             manager.Navigation.OpenHomePage();
             manager.Auth.Logout();
@@ -42,11 +32,7 @@ namespace Note_pad
         [Test]
         public void AuthCreateEditRemoveLogout()
         {
-            manager.Navigation.OpenHomePage();
-            AccountData user = new AccountData("Boooo211@yandex.ru", "12345678");
-            manager.Auth.Authorization(user);
-            var authorizedLogin = manager.Auth.GetAuthorizedLogin();
-            Assert.AreEqual(user.Username, authorizedLogin);
+            
             manager.Notes.CreateNewNote();
             NoteData note = new NoteData("New note created");
             manager.Notes.RenameNote(note);

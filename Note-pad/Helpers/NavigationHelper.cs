@@ -23,7 +23,7 @@ namespace Note_pad
         }
         public void OpenHomePage()
         {
-            driver.Navigate().GoToUrl("https://note-pad.net/");
+            driver.Navigate().GoToUrl(Settings.BaseURL);
             driver.Manage().Window.Size = new System.Drawing.Size(1440, 900);
         }
     }

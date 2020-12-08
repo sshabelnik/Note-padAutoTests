@@ -24,13 +24,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="798f31d8-94c5-4974-85e0-6b3dbd4f7be0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Note-pad/Tests/NotesCreationTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Note-pad/Settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Note-pad/Tests/AuthBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Note-pad/Tests/LoginTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Note-pad/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Note-pad/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Note-pad/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Note-pad/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Note-pad.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Note-pad.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Note-pad/Models/NoteData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad/Models/NoteData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note-pad/Helpers/AuthorizationHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad/Helpers/AuthorizationHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note-pad/Helpers/NavigationHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad/Helpers/NavigationHelper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Note-pad/Note-pad.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad/Note-pad.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note-pad/Tests/NotesCreationTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad/Tests/NotesCreationTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note-pad/Tests/Tests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad/Tests/Tests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Note-pad/bin/Debug/Note_pad.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad/bin/Debug/Note_pad.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Note-pad/bin/Debug/Note_pad.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad/bin/Debug/Note_pad.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Note-pad/obj/Debug/Note-pad.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Note-pad/obj/Debug/Note-pad.csproj.CoreCompileInputs.cache" afterDir="false" />
@@ -41,6 +45,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,14 +71,18 @@
         <option value="$PROJECT_DIR$/Note-pad/NoteHelper.cs" />
         <option value="$PROJECT_DIR$/Note-pad/Tests.cs" />
         <option value="$PROJECT_DIR$/Note-pad/Tests/TestBase.cs" />
-        <option value="$PROJECT_DIR$/Note-pad/Helpers/NoteHelper.cs" />
-        <option value="$PROJECT_DIR$/Note-pad/Helpers/AuthorizationHelper.cs" />
-        <option value="$PROJECT_DIR$/Note-pad/Tests/Tests.cs" />
         <option value="$PROJECT_DIR$/Note-pad/ApplicationManager.cs" />
         <option value="$PROJECT_DIR$/ConsoleApplication1/Program.cs" />
         <option value="$PROJECT_DIR$/DataGenerator/Program.cs" />
         <option value="$PROJECT_DIR$/Note-pad/Models/NoteData.cs" />
+        <option value="$PROJECT_DIR$/Note-pad/Helpers/AuthorizationHelper.cs" />
+        <option value="$PROJECT_DIR$/Note-pad/Tests/LoginTests.cs" />
         <option value="$PROJECT_DIR$/Note-pad/Tests/NotesCreationTest.cs" />
+        <option value="$PROJECT_DIR$/Note-pad/Tests/Tests.cs" />
+        <option value="$PROJECT_DIR$/Note-pad/Helpers/NoteHelper.cs" />
+        <option value="$PROJECT_DIR$/Note-pad/Helpers/NavigationHelper.cs" />
+        <option value="$PROJECT_DIR$/Note-pad/Tests/AuthBase.cs" />
+        <option value="$PROJECT_DIR$/Note-pad/Settings.xml" />
       </list>
     </option>
   </component>
@@ -145,6 +160,7 @@
       <workItem from="1607421211723" duration="1838000" />
       <workItem from="1607423072286" duration="1944000" />
       <workItem from="1607426892914" duration="106000" />
+      <workItem from="1607427017754" duration="3249000" />
     </task>
     <servers />
   </component>

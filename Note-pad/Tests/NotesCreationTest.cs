@@ -17,7 +17,7 @@ using NUnit.Framework.Internal.Execution;
 namespace Note_pad
 {
     [TestFixture]
-    public class NotesCreationTest: TestBase
+    public class NotesCreationTest: AuthBase
     {
         public static IEnumerable<NoteData> GroupDataFromXmlFile()
         {
@@ -30,11 +30,6 @@ namespace Note_pad
 
         public void TestMethod(NoteData note)
         {
-            manager.Navigation.OpenHomePage();
-            AccountData user = new AccountData("Boooo211@yandex.ru", "12345678");
-            manager.Auth.Authorization(user);
-            var authorizedLogin = manager.Auth.GetAuthorizedLogin();
-            Assert.AreEqual(user.Username, authorizedLogin);
             manager.Notes.CreateNewNote();
             manager.Notes.RenameNote(note);
             var assertNote = manager.Notes.GetRenamedNoteData();

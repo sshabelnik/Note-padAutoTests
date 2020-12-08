@@ -20,8 +20,25 @@ namespace Note_pad
             : base(manager)
         {
         }
+
+        public bool IsLoggedIn()
+        {
+            try
+            {
+                driver.FindElement(By.Id("email"));
+            }
+            catch
+            {
+                return false;
+            }
+            return true;
+        }
         public void Authorization(AccountData user)
         {
+            if (!IsLoggedIn())
+            {
+                Logout();
+            }
             Thread.Sleep(1000);
             driver.FindElement(By.Id("email")).Click();
             driver.FindElement(By.Id("email")).SendKeys(user.Username);
