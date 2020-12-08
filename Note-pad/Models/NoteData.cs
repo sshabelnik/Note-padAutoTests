@@ -6,6 +6,10 @@ namespace Note_pad
         {
             Name = name;
         }
+
+        public NoteData()
+        {
+        }
         
         public string Name { get; set; }
     }
